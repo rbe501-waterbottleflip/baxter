@@ -320,3 +320,33 @@ int main(int argc, char** argv)
 #endif
 }
 
+Determining if the function sgemm_ exists passed with the following output:
+Change Dir: /home/hejohnson/ros_ws/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec976163720/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec976163720.dir/build.make CMakeFiles/cmTryCompileExec976163720.dir/build
+make[1]: Entering directory `/home/hejohnson/ros_ws/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/hejohnson/ros_ws/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec976163720.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sgemm_   -o CMakeFiles/cmTryCompileExec976163720.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec976163720
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec976163720.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sgemm_    CMakeFiles/cmTryCompileExec976163720.dir/CheckFunctionExists.c.o  -o cmTryCompileExec976163720 -rdynamic /usr/lib/libblas.so.3gf 
+make[1]: Leaving directory `/home/hejohnson/ros_ws/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function cheev_ exists passed with the following output:
+Change Dir: /home/hejohnson/ros_ws/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1460311322/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1460311322.dir/build.make CMakeFiles/cmTryCompileExec1460311322.dir/build
+make[1]: Entering directory `/home/hejohnson/ros_ws/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/hejohnson/ros_ws/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1460311322.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=cheev_   -o CMakeFiles/cmTryCompileExec1460311322.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1460311322
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1460311322.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=cheev_    CMakeFiles/cmTryCompileExec1460311322.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1460311322 -rdynamic /usr/lib/liblapack.so.3gf /usr/lib/libblas.so.3gf 
+make[1]: Leaving directory `/home/hejohnson/ros_ws/build/CMakeFiles/CMakeTmp'
+
+

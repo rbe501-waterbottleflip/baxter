@@ -250,7 +250,7 @@ _catkin_empty_exported_target: cmake_check_build_system
 
 # fast build rule for target.
 _catkin_empty_exported_target/fast:
-	$(MAKE) -f baxter_common/baxter_common/CMakeFiles/_catkin_empty_exported_target.dir/build.make baxter_common/baxter_common/CMakeFiles/_catkin_empty_exported_target.dir/build
+	$(MAKE) -f moveit_robots/atlas_moveit_config/CMakeFiles/_catkin_empty_exported_target.dir/build.make moveit_robots/atlas_moveit_config/CMakeFiles/_catkin_empty_exported_target.dir/build
 .PHONY : _catkin_empty_exported_target/fast
 
 #=============================================================================
@@ -1645,6 +1645,227 @@ kinematics/fast:
 .PHONY : kinematics/fast
 
 #=============================================================================
+# Target rules for targets named baxter_left_arm_moveit_ikfast_plugin
+
+# Build rule for target.
+baxter_left_arm_moveit_ikfast_plugin: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 baxter_left_arm_moveit_ikfast_plugin
+.PHONY : baxter_left_arm_moveit_ikfast_plugin
+
+# fast build rule for target.
+baxter_left_arm_moveit_ikfast_plugin/fast:
+	$(MAKE) -f moveit_robots/baxter/baxter_ikfast_left_arm_plugin/CMakeFiles/baxter_left_arm_moveit_ikfast_plugin.dir/build.make moveit_robots/baxter/baxter_ikfast_left_arm_plugin/CMakeFiles/baxter_left_arm_moveit_ikfast_plugin.dir/build
+.PHONY : baxter_left_arm_moveit_ikfast_plugin/fast
+
+#=============================================================================
+# Target rules for targets named moveit_msgs_generate_messages_cpp
+
+# Build rule for target.
+moveit_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 moveit_msgs_generate_messages_cpp
+.PHONY : moveit_msgs_generate_messages_cpp
+
+# fast build rule for target.
+moveit_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f moveit_robots/baxter/baxter_ikfast_left_arm_plugin/CMakeFiles/moveit_msgs_generate_messages_cpp.dir/build.make moveit_robots/baxter/baxter_ikfast_left_arm_plugin/CMakeFiles/moveit_msgs_generate_messages_cpp.dir/build
+.PHONY : moveit_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named moveit_msgs_generate_messages_lisp
+
+# Build rule for target.
+moveit_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 moveit_msgs_generate_messages_lisp
+.PHONY : moveit_msgs_generate_messages_lisp
+
+# fast build rule for target.
+moveit_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f moveit_robots/baxter/baxter_ikfast_left_arm_plugin/CMakeFiles/moveit_msgs_generate_messages_lisp.dir/build.make moveit_robots/baxter/baxter_ikfast_left_arm_plugin/CMakeFiles/moveit_msgs_generate_messages_lisp.dir/build
+.PHONY : moveit_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named moveit_msgs_generate_messages_py
+
+# Build rule for target.
+moveit_msgs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 moveit_msgs_generate_messages_py
+.PHONY : moveit_msgs_generate_messages_py
+
+# fast build rule for target.
+moveit_msgs_generate_messages_py/fast:
+	$(MAKE) -f moveit_robots/baxter/baxter_ikfast_left_arm_plugin/CMakeFiles/moveit_msgs_generate_messages_py.dir/build.make moveit_robots/baxter/baxter_ikfast_left_arm_plugin/CMakeFiles/moveit_msgs_generate_messages_py.dir/build
+.PHONY : moveit_msgs_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named object_recognition_msgs_generate_messages_cpp
+
+# Build rule for target.
+object_recognition_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 object_recognition_msgs_generate_messages_cpp
+.PHONY : object_recognition_msgs_generate_messages_cpp
+
+# fast build rule for target.
+object_recognition_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f moveit_robots/baxter/baxter_ikfast_left_arm_plugin/CMakeFiles/object_recognition_msgs_generate_messages_cpp.dir/build.make moveit_robots/baxter/baxter_ikfast_left_arm_plugin/CMakeFiles/object_recognition_msgs_generate_messages_cpp.dir/build
+.PHONY : object_recognition_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named object_recognition_msgs_generate_messages_lisp
+
+# Build rule for target.
+object_recognition_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 object_recognition_msgs_generate_messages_lisp
+.PHONY : object_recognition_msgs_generate_messages_lisp
+
+# fast build rule for target.
+object_recognition_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f moveit_robots/baxter/baxter_ikfast_left_arm_plugin/CMakeFiles/object_recognition_msgs_generate_messages_lisp.dir/build.make moveit_robots/baxter/baxter_ikfast_left_arm_plugin/CMakeFiles/object_recognition_msgs_generate_messages_lisp.dir/build
+.PHONY : object_recognition_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named object_recognition_msgs_generate_messages_py
+
+# Build rule for target.
+object_recognition_msgs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 object_recognition_msgs_generate_messages_py
+.PHONY : object_recognition_msgs_generate_messages_py
+
+# fast build rule for target.
+object_recognition_msgs_generate_messages_py/fast:
+	$(MAKE) -f moveit_robots/baxter/baxter_ikfast_left_arm_plugin/CMakeFiles/object_recognition_msgs_generate_messages_py.dir/build.make moveit_robots/baxter/baxter_ikfast_left_arm_plugin/CMakeFiles/object_recognition_msgs_generate_messages_py.dir/build
+.PHONY : object_recognition_msgs_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named octomap_msgs_generate_messages_cpp
+
+# Build rule for target.
+octomap_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 octomap_msgs_generate_messages_cpp
+.PHONY : octomap_msgs_generate_messages_cpp
+
+# fast build rule for target.
+octomap_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f moveit_robots/baxter/baxter_ikfast_left_arm_plugin/CMakeFiles/octomap_msgs_generate_messages_cpp.dir/build.make moveit_robots/baxter/baxter_ikfast_left_arm_plugin/CMakeFiles/octomap_msgs_generate_messages_cpp.dir/build
+.PHONY : octomap_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named octomap_msgs_generate_messages_lisp
+
+# Build rule for target.
+octomap_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 octomap_msgs_generate_messages_lisp
+.PHONY : octomap_msgs_generate_messages_lisp
+
+# fast build rule for target.
+octomap_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f moveit_robots/baxter/baxter_ikfast_left_arm_plugin/CMakeFiles/octomap_msgs_generate_messages_lisp.dir/build.make moveit_robots/baxter/baxter_ikfast_left_arm_plugin/CMakeFiles/octomap_msgs_generate_messages_lisp.dir/build
+.PHONY : octomap_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named octomap_msgs_generate_messages_py
+
+# Build rule for target.
+octomap_msgs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 octomap_msgs_generate_messages_py
+.PHONY : octomap_msgs_generate_messages_py
+
+# fast build rule for target.
+octomap_msgs_generate_messages_py/fast:
+	$(MAKE) -f moveit_robots/baxter/baxter_ikfast_left_arm_plugin/CMakeFiles/octomap_msgs_generate_messages_py.dir/build.make moveit_robots/baxter/baxter_ikfast_left_arm_plugin/CMakeFiles/octomap_msgs_generate_messages_py.dir/build
+.PHONY : octomap_msgs_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named shape_msgs_generate_messages_cpp
+
+# Build rule for target.
+shape_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 shape_msgs_generate_messages_cpp
+.PHONY : shape_msgs_generate_messages_cpp
+
+# fast build rule for target.
+shape_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f moveit_robots/baxter/baxter_ikfast_left_arm_plugin/CMakeFiles/shape_msgs_generate_messages_cpp.dir/build.make moveit_robots/baxter/baxter_ikfast_left_arm_plugin/CMakeFiles/shape_msgs_generate_messages_cpp.dir/build
+.PHONY : shape_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named shape_msgs_generate_messages_lisp
+
+# Build rule for target.
+shape_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 shape_msgs_generate_messages_lisp
+.PHONY : shape_msgs_generate_messages_lisp
+
+# fast build rule for target.
+shape_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f moveit_robots/baxter/baxter_ikfast_left_arm_plugin/CMakeFiles/shape_msgs_generate_messages_lisp.dir/build.make moveit_robots/baxter/baxter_ikfast_left_arm_plugin/CMakeFiles/shape_msgs_generate_messages_lisp.dir/build
+.PHONY : shape_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named shape_msgs_generate_messages_py
+
+# Build rule for target.
+shape_msgs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 shape_msgs_generate_messages_py
+.PHONY : shape_msgs_generate_messages_py
+
+# fast build rule for target.
+shape_msgs_generate_messages_py/fast:
+	$(MAKE) -f moveit_robots/baxter/baxter_ikfast_left_arm_plugin/CMakeFiles/shape_msgs_generate_messages_py.dir/build.make moveit_robots/baxter/baxter_ikfast_left_arm_plugin/CMakeFiles/shape_msgs_generate_messages_py.dir/build
+.PHONY : shape_msgs_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named visualization_msgs_generate_messages_cpp
+
+# Build rule for target.
+visualization_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 visualization_msgs_generate_messages_cpp
+.PHONY : visualization_msgs_generate_messages_cpp
+
+# fast build rule for target.
+visualization_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f moveit_robots/baxter/baxter_ikfast_left_arm_plugin/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/build.make moveit_robots/baxter/baxter_ikfast_left_arm_plugin/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/build
+.PHONY : visualization_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named visualization_msgs_generate_messages_lisp
+
+# Build rule for target.
+visualization_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 visualization_msgs_generate_messages_lisp
+.PHONY : visualization_msgs_generate_messages_lisp
+
+# fast build rule for target.
+visualization_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f moveit_robots/baxter/baxter_ikfast_left_arm_plugin/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/build.make moveit_robots/baxter/baxter_ikfast_left_arm_plugin/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/build
+.PHONY : visualization_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named visualization_msgs_generate_messages_py
+
+# Build rule for target.
+visualization_msgs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 visualization_msgs_generate_messages_py
+.PHONY : visualization_msgs_generate_messages_py
+
+# fast build rule for target.
+visualization_msgs_generate_messages_py/fast:
+	$(MAKE) -f moveit_robots/baxter/baxter_ikfast_left_arm_plugin/CMakeFiles/visualization_msgs_generate_messages_py.dir/build.make moveit_robots/baxter/baxter_ikfast_left_arm_plugin/CMakeFiles/visualization_msgs_generate_messages_py.dir/build
+.PHONY : visualization_msgs_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named baxter_right_arm_moveit_ikfast_plugin
+
+# Build rule for target.
+baxter_right_arm_moveit_ikfast_plugin: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 baxter_right_arm_moveit_ikfast_plugin
+.PHONY : baxter_right_arm_moveit_ikfast_plugin
+
+# fast build rule for target.
+baxter_right_arm_moveit_ikfast_plugin/fast:
+	$(MAKE) -f moveit_robots/baxter/baxter_ikfast_right_arm_plugin/CMakeFiles/baxter_right_arm_moveit_ikfast_plugin.dir/build.make moveit_robots/baxter/baxter_ikfast_right_arm_plugin/CMakeFiles/baxter_right_arm_moveit_ikfast_plugin.dir/build
+.PHONY : baxter_right_arm_moveit_ikfast_plugin/fast
+
+#=============================================================================
 # Target rules for targets named baxter_emulator
 
 # Build rule for target.
@@ -1798,6 +2019,23 @@ help:
 	@echo "... tf_generate_messages_py"
 	@echo "... baxter_sim_kinematics"
 	@echo "... kinematics"
+	@echo "... baxter_left_arm_moveit_ikfast_plugin"
+	@echo "... moveit_msgs_generate_messages_cpp"
+	@echo "... moveit_msgs_generate_messages_lisp"
+	@echo "... moveit_msgs_generate_messages_py"
+	@echo "... object_recognition_msgs_generate_messages_cpp"
+	@echo "... object_recognition_msgs_generate_messages_lisp"
+	@echo "... object_recognition_msgs_generate_messages_py"
+	@echo "... octomap_msgs_generate_messages_cpp"
+	@echo "... octomap_msgs_generate_messages_lisp"
+	@echo "... octomap_msgs_generate_messages_py"
+	@echo "... shape_msgs_generate_messages_cpp"
+	@echo "... shape_msgs_generate_messages_lisp"
+	@echo "... shape_msgs_generate_messages_py"
+	@echo "... visualization_msgs_generate_messages_cpp"
+	@echo "... visualization_msgs_generate_messages_lisp"
+	@echo "... visualization_msgs_generate_messages_py"
+	@echo "... baxter_right_arm_moveit_ikfast_plugin"
 	@echo "... baxter_emulator"
 	@echo "... baxter_examples_gencfg"
 .PHONY : help
