@@ -997,8 +997,14 @@ atlas_v3_moveit_config_BINARY_DIR:STATIC=/home/hejohnson/ros_ws/build/moveit_rob
 //Value Computed by CMake
 atlas_v3_moveit_config_SOURCE_DIR:STATIC=/home/hejohnson/ros_ws/src/moveit_robots/atlas_v3_moveit_config
 
+//The directory containing a CMake configuration file for baxter.
+baxter_DIR:PATH=baxter_DIR-NOTFOUND
+
 //Value Computed by CMake
 baxter_common_BINARY_DIR:STATIC=/home/hejohnson/ros_ws/build/baxter_common/baxter_common
+
+//The directory containing a CMake configuration file for baxter_common.
+baxter_common_DIR:PATH=baxter_common_DIR-NOTFOUND
 
 //Value Computed by CMake
 baxter_common_SOURCE_DIR:STATIC=/home/hejohnson/ros_ws/src/baxter_common/baxter_common
@@ -1137,6 +1143,12 @@ baxter_tools_DIR:PATH=/home/hejohnson/ros_ws/devel/share/baxter_tools/cmake
 
 //Value Computed by CMake
 baxter_tools_SOURCE_DIR:STATIC=/home/hejohnson/ros_ws/src/baxter_tools
+
+//Value Computed by CMake
+bottleflip_BINARY_DIR:STATIC=/home/hejohnson/ros_ws/build/bottleflip
+
+//Value Computed by CMake
+bottleflip_SOURCE_DIR:STATIC=/home/hejohnson/ros_ws/src/bottleflip
 
 //The directory containing a CMake configuration file for catkin.
 catkin_DIR:PATH=/opt/ros/indigo/share/catkin/cmake
@@ -1547,7 +1559,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=26
+CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=27
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
