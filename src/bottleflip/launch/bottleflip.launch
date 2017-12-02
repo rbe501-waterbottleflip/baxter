@@ -34,7 +34,9 @@
   <!-- Publish a static transform between the world and the base of the robot -->
   <node pkg="tf2_ros" type="static_transform_publisher" name="base_to_world" args="0 0 0 0 0 0 1 world base" />
 
-  <!-- Run a python script to the send a service call to gazebo_ros to spawn a URDF robot -->
+
+
+   <!-- Run a python script to the send a service call to gazebo_ros to spawn a URDF robot -->
    <node name="urdf_spawner" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen"
 	args="-param robot_description -urdf -z 0.93 -model baxter
 	      -J baxter::right_s0 -0.272659
@@ -97,12 +99,12 @@
     <remap from="/joint_states" to="/robot/joint_states" />
   </node>
 
-<!--  <node name="baxter_sim_io" pkg="baxter_sim_io" type="baxter_sim_io"
+  <node name="baxter_sim_io" pkg="baxter_sim_io" type="baxter_sim_io"
 	respawn="false" output="screen">
-  </node>-->
+  </node>
 
-
-
+<node name="joint_trajectory_action_server" pkg="baxter_interface" type="joint_trajectory_action_server.py"/>
+    
 
 
 </launch>
