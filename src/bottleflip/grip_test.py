@@ -102,14 +102,16 @@ if __name__ == '__main__':
 	orient_down.z = orient_quaternion_components[2]
 	orient_down.w = orient_quaternion_components[3]
 	
-	highPose = PoseStamped(header=hdr, pose=Pose(position=Point(0, -0.5, 0.3), orientation=orient_down))
-	gripPose = PoseStamped(header=hdr, pose=Pose(position=Point(0, -0.5, 0.22), orientation=orient_down))
+	highPose = PoseStamped(header=hdr, pose=Pose(position=Point(0, -0.428, -0.57), orientation=orient_down))
+	gripPose = PoseStamped(header=hdr, pose=Pose(position=Point(0, -0.428, -0.7), orientation=orient_down))
+	liftPose = PoseStamped(header=hdr, pose=Pose(position=Point(0, -0.428, -0.5), orientation=orient_down))
 	
 	ikreq = SolvePositionIKRequest()
-	#ikreq.pose_stamp.append(highPose)
+	ikreq.pose_stamp.append(highPose)
 	ikreq.pose_stamp.append(gripPose)
+	ikreq.pose_stamp.append(liftPose)
 	seedstate = JointState()
-	seedstate.name=('left_e0', 'left_e1', 'left_s0', 'left_s1', 'left_w0', 'left_w1', 'left_w2')
+	seedstate.name=('right_e0', 'right_e1', 'right_s0', 'right_s1', 'right_w0', 'right_w1', 'right_w2')
 	seedstate.position=current_angles
 #	ikreq.seed_angles.append(seedstate)
 #	ikreq.seed_angles.append(seedstate)
@@ -124,20 +126,27 @@ if __name__ == '__main__':
 
 	print resp
 
-
-
-
 	traj = Trajectory('right')
 
         
         traj.add_point(current_angles, 0.0)
 	
 
-	traj.add_point(resp.joints[0].position, 5.0)
-	#traj.add_point(resp.joints[1].position, 8.0)
+	traj.add_point(resp.joints[0].position, 3.0)
+	traj.add_point(resp.joints[1].position, 6.0)
 
 	traj.start()
 	traj.wait(12.0)
 	right_gripper.close()
+
+	current_angles = [right_limb.joint_angle(joint) for joint in right_limb.joint_names()]
+	traj.clear('right')
+	traj.add_point(current_angles, 0)
+	traj.add_point(resp.joints[2].position, 2.5)
+	traj.start()
+	traj.wait(2.5)
+
+
+
         rospy.spin()
 
