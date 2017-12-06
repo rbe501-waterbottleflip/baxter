@@ -96,10 +96,9 @@
         </inertial>
         <collision name='collision'>
           <geometry>
-            <cylinder>
-              <radius>0.0125</radius>
-              <length>0.25</length>
-            </cylinder>
+            <box>
+              <size>0.025 0.025 0.25</size>
+            </box>
           </geometry>
           <max_contacts>10</max_contacts>
           <surface>
@@ -114,10 +113,9 @@
         </collision>
         <visual name='visual'>
           <geometry>
-            <cylinder>
-              <radius>0.0125</radius>
-              <length>0.25</length>
-            </cylinder>
+            <box>
+              <size>0.025 0.025 0.25</size>
+            </box>
           </geometry>
           <material>
             <script>

@@ -103,7 +103,7 @@ if __name__ == '__main__':
 	orient_down.w = orient_quaternion_components[3]
 	
 	highPose = PoseStamped(header=hdr, pose=Pose(position=Point(0, -0.428, -0.57), orientation=orient_down))
-	gripPose = PoseStamped(header=hdr, pose=Pose(position=Point(0, -0.428, -0.7), orientation=orient_down))
+	gripPose = PoseStamped(header=hdr, pose=Pose(position=Point(0, -0.428, -0.71), orientation=orient_down))
 	liftPose = PoseStamped(header=hdr, pose=Pose(position=Point(0, -0.428, -0.5), orientation=orient_down))
 	
 	ikreq = SolvePositionIKRequest()
