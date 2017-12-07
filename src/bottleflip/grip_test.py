@@ -13,7 +13,7 @@ from geometry_msgs.msg import PoseStamped, Pose, Point, Quaternion
 
 from sensor_msgs.msg import JointState
 
-from std_msgs.msg import Header
+from std_msgs.msg import Header, Empty
 
 from control_msgs.msg import FollowJointTrajectoryAction, FollowJointTrajectoryGoal
 
@@ -76,6 +76,8 @@ if __name__ == '__main__':
 
 	ns = "ExternalTools/right/PositionKinematicsNode/IKService"
 	
+	rospy.wait_for_message("/robot/sim/started", Empty)
+		
 	iksvc = rospy.ServiceProxy(ns, SolvePositionIK)	
 	global right_gripper
 
@@ -148,5 +150,5 @@ if __name__ == '__main__':
 
 
 
-        rospy.spin()
+        #rospy.spin()
 
